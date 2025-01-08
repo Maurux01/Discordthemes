@@ -1,0 +1,121 @@
+/* Estilo general */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #0f0f0f; /* Fondo negro YouTube Music */
+    color: #ffffff; /* Texto blanco */
+    display: flex;
+    height: 100vh;
+  }
+  
+  /* Barra lateral */
+  .sidebar {
+    width: 20%;
+    background-color: #181818; /* Gris oscuro */
+    padding: 20px;
+  }
+  
+  .sidebar h1 {
+    color: #ff0000; /* Rojo YouTube Music */
+    margin-bottom: 20px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #202020; /* Gris más claro */
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .sidebar li:hover {
+    background-color: #ff4d4d; /* Rojo suave */
+  }
+  
+  .sidebar .active {
+    background-color: #ff0000; /* Rojo YouTube Music */
+  }
+  
+  /* Contenedor principal */
+  .main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  header {
+    background-color: #202020; /* Gris oscuro */
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h2 {
+    margin: 0;
+  }
+  
+  .settings-button {
+    background-color: #ff0000; /* Botón rojo */
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .settings-button:hover {
+    background-color: #ff4d4d; /* Rojo más claro */
+  }
+  
+  /* Chat */
+  .chat {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
+  .message {
+    margin-bottom: 10px;
+  }
+  
+  .username {
+    font-weight: bold;
+    color: #ff0000; /* Nombre de usuario rojo */
+  }
+  
+  /* Pie de página */
+  footer {
+    background-color: #202020; /* Fondo gris oscuro */
+    padding: 10px;
+    display: flex;
+  }
+  
+  footer input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    background-color: #282828; /* Campo de texto gris */
+    color: #ffffff;
+  }
+  
+  footer button {
+    background-color: #ff0000; /* Botón de enviar */
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  footer button:hover {
+    background-color: #ff4d4d; /* Rojo más claro */
+  }
+  
