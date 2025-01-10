@@ -3,7 +3,9 @@
 
 A discord theme inspared in the color palet of the app Youtubemusic
 
+![image](https://github.com/user-attachments/assets/2cbac094-a3df-4384-b66c-6bb76e25babd)
 
+![image](https://github.com/user-attachments/assets/54ecc369-2ee3-4c25-827d-80d584b2394b)
 
 
 ## Authors
