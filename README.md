@@ -1,5 +1,5 @@
 
-# Youtubemusic(discord theme)
+# Discord theme 
 
 A discord theme inspared in the color palet of the app Youtubemusic
 
