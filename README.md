@@ -1,12 +1,13 @@
 
-# Discord theme 
+# Discord themes
 
-A discord theme inspared in the color palet of the app Youtubemusic
+1-discord theme inspared in the color palet of the app Youtubemusic
 
 ![image](https://github.com/user-attachments/assets/2cbac094-a3df-4384-b66c-6bb76e25babd)
 
 ![image](https://github.com/user-attachments/assets/54ecc369-2ee3-4c25-827d-80d584b2394b)
 
+2-discord theme inspared in the color palet of the app Spotify
 
 ## Authors
 
@@ -30,15 +31,15 @@ If you have any feedback, please reach out to us at maurofel36@gmail.com
    - Install it and select the Discord client you use.
 
 2. **Save the CSS File:**
-   - Copy the code provided earlier into a file and save it as `youtube-music.theme.css`.
+   - Copy the code provided earlier into a file and save it as `xxx.css`.
 
 3. **Move the File to the Themes Folder:**
    - Open Discord and go to **Settings**.
    - Scroll down to **BetterDiscord** > **Themes**.
    - Click on **Open Themes Folder**.
-   - Move the `youtube-music.theme.css` file into that folder.
+   - Move the `xxx.css` file into that folder.
 
 4. **Enable the Theme:**
    - Go back to Discord, navigate to **BetterDiscord** > **Themes**.
-   - Find your theme called "YouTube Music Theme" and enable it.
+   - Find your theme called "xxx.css" and enable it.
     
