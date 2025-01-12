@@ -1,0 +1,111 @@
+/* 
+  Name: Spotify VS Code Theme
+  Author: maurux01
+  Description: Tema inspirado en Spotify y VS Code para BetterDiscord
+  Version: 1.0
+*/
+
+/* Fondo y colores principales */
+:root {
+  --background-primary: #181818; /* Fondo principal oscuro */
+  --background-secondary: #1E1E1E; /* Fondo secundario gris oscuro */
+  --background-tertiary: #2C2C2C; /* Fondo terciario gris más claro */
+  --scrollbar-thin-thumb: #1DB954; /* Barra de desplazamiento verde Spotify */
+  
+  --text-normal: #D1D1D1; /* Texto principal gris claro */
+  --text-muted: #A0A0A0; /* Texto secundario gris más oscuro */
+  
+  --interactive-normal: #1DB954; /* Verde Spotify para botones/enlaces */
+  --interactive-hover: #1ED760; /* Verde más suave al pasar el mouse */
+  --interactive-active: #1AA34A; /* Verde más intenso al hacer clic */
+  
+  --brand-experiment: #0078D4; /* Azul de VS Code para botones destacados */
+}
+
+/* Fondo general */
+.theme-dark, .theme-light {
+  --background-primary: #181818;
+  --background-secondary: #1E1E1E;
+  --background-tertiary: #2C2C2C;
+  --scrollbar-thin-thumb: #1DB954;
+}
+
+/* Personalización de la barra lateral */
+.sidebar-2K8pFh {
+  background-color: var(--background-secondary) !important;
+}
+
+.container-3baos1 {
+  background-color: var(--background-primary) !important;
+}
+
+.listItemWrapper-3d87LP:hover {
+  background-color: var(--interactive-hover) !important;
+}
+
+.listItemWrapper-3d87LP.selected-1XTZKu {
+  background-color: var(--interactive-active) !important;
+  color: var(--text-normal) !important;
+}
+
+/* Títulos y encabezados */
+.title-29uC1r {
+  color: var(--text-normal) !important;
+}
+
+/* Mensajes en el chat */
+.message-2qnXI6 {
+  background-color: var(--background-tertiary) !important;
+  color: var(--text-normal) !important;
+}
+
+.message-2qnXI6:hover {
+  background-color: var(--interactive-hover) !important;
+}
+
+.username-1A8OIy {
+  color: var(--interactive-normal) !important;
+}
+
+.username-1A8OIy:hover {
+  color: var(--interactive-active) !important;
+}
+
+/* Botones */
+.button-38aScr {
+  background-color: var(--interactive-normal) !important;
+  color: var(--text-normal) !important;
+}
+
+.button-38aScr:hover {
+  background-color: var(--interactive-hover) !important;
+}
+
+/* Barra de búsqueda */
+.searchBarComponent-3N7dCG {
+  background-color: var(--background-secondary) !important;
+  color: var(--text-normal) !important;
+  border: 1px solid var(--interactive-normal) !important;
+}
+
+.searchBarComponent-3N7dCG input {
+  color: var(--text-normal) !important;
+}
+
+/* Barra de configuración (settings) */
+.container-YkUktl {
+  background-color: var(--background-secondary) !important;
+}
+
+.title-1pmpPr, .content-1Lab8H {
+  color: var(--text-normal) !important;
+}
+
+/* Barra de desplazamiento */
+.scrollbar-1tINb0 {
+  background-color: var(--scrollbar-thin-thumb) !important;
+}
+
+.scrollbar-1tINb0:hover {
+  background-color: var(--interactive-active) !important;
+}
