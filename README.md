@@ -1,13 +1,18 @@
 
 # Discord themes
 
-1-discord theme inspared in the color palet of the app Youtubemusic
+# 1-discord theme inspared in the color palet of the app Youtubemusic
 
 ![image](https://github.com/user-attachments/assets/2cbac094-a3df-4384-b66c-6bb76e25babd)
 
 ![image](https://github.com/user-attachments/assets/54ecc369-2ee3-4c25-827d-80d584b2394b)
 
-2-discord theme inspared in the color palet of the app Spotify
+# 2-discord theme inspared in the color palet of the app Spotify
+
+![image](https://github.com/user-attachments/assets/9d55843e-4f4b-4458-8079-7787201c03b1)
+
+![image](https://github.com/user-attachments/assets/44cb2dab-0ffa-41c9-a89f-121e05c1ad7e)
+
 
 ## Authors
 
