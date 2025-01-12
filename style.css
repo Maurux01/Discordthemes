@@ -10,16 +10,16 @@
   --background-primary: #0f0f0f; /* Fondo principal negro */
   --background-secondary: #181818; /* Fondo secundario gris oscuro */
   --background-tertiary: #202020; /* Fondo terciario más claro */
-  --scrollbar-thin-thumb: #ff0000; /* Barra de desplazamiento roja */
+  --scrollbar-thin-thumb: #FF3333; /* Barra de desplazamiento roja */
   
   --text-normal: #ffffff; /* Texto principal blanco */
   --text-muted: #b3b3b3; /* Texto secundario gris */
   
-  --interactive-normal: #ff0000; /* Rojo YouTube Music para botones/enlaces */
-  --interactive-hover: #ff4d4d; /* Rojo suave al pasar el mouse */
-  --interactive-active: #ff1a1a; /* Rojo más intenso al hacer clic */
+  --interactive-normal: #FF3333; /* Rojo YouTube Music para botones/enlaces */
+  --interactive-hover: #FF6666; /* Rojo suave al pasar el mouse */
+  --interactive-active: #FF1A1A; /* Rojo más intenso al hacer clic */
   
-  --brand-experiment: #ff0000; /* Usado para botones destacados */
+  --brand-experiment: #FF3333; /* Usado para botones destacados */
 }
 
 /* Fondo general */
@@ -27,7 +27,7 @@
   --background-primary: #0f0f0f;
   --background-secondary: #181818;
   --background-tertiary: #202020;
-  --scrollbar-thin-thumb: #ff0000;
+  --scrollbar-thin-thumb: #FF3333;
 }
 
 /* Personalización de la barra lateral */
