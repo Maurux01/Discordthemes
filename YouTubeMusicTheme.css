@@ -1,0 +1,170 @@
+/**
+ * YouTube-Inspired Discord Theme
+ * A softer take on YouTube's red theme with better readability and reduced eye strain
+ */
+
+/* Custom Properties for easy color management */
+:root {
+    /* Primary Colors - Softened YouTube red palette */
+    --primary-dark: #8B0000;     /* Deep red for main backgrounds */
+    --primary-base: #CC0000;     /* Main brand color, softened YouTube red */
+    --primary-light: #FF4444;    /* Lighter accents */
+    
+    /* Neutral Colors */
+    --bg-darkest: #1A1A1A;       /* Main background */
+    --bg-darker: #242424;        /* Secondary background */
+    --bg-dark: #2F2F2F;          /* Tertiary background */
+    --bg-light: #383838;         /* Interactive elements background */
+    
+    /* Text Colors */
+    --text-brightest: #FFFFFF;   /* Primary text */
+    --text-bright: #E5E5E5;      /* Secondary text */
+    --text-muted: #AAAAAA;       /* Muted text */
+    
+    /* Interactive Colors */
+    --interactive-hover: #FF6666; /* Hover state */
+    --interactive-active: #990000;/* Active state */
+    
+    /* Status Colors */
+    --online: #43B581;           /* Online status */
+    --idle: #FAA61A;             /* Idle status */
+    --dnd: #F04747;              /* Do Not Disturb status */
+    --offline: #747F8D;          /* Offline status */
+}
+
+/* App Background */
+.app-2rEoOp {
+    background-color: var(--bg-darkest);
+}
+
+/* Servers List */
+.guilds-1SWlCJ {
+    background-color: var(--bg-darker);
+}
+
+.circleIconButton-1QV--U {
+    background-color: var(--primary-base);
+    color: var(--text-brightest);
+}
+
+/* Channels List */
+.sidebar-2K8pFh {
+    background-color: var(--bg-dark);
+}
+
+.containerDefault--pIXnN {
+    color: var(--text-bright);
+}
+
+/* Chat Area */
+.chat-3bRxxu {
+    background-color: var(--bg-darkest);
+}
+
+/* Message Area */
+.message-2qnXI6 {
+    background-color: transparent;
+    transition: background-color 0.2s ease;
+}
+
+.message-2qnXI6:hover {
+    background-color: var(--bg-light);
+}
+
+/* Input Box */
+.channelTextArea-rNsIhG {
+    background-color: var(--bg-dark);
+}
+
+.scrollableContainer-2NUZem {
+    background-color: var(--bg-light);
+}
+
+/* Buttons and Interactive Elements */
+.button-1YfofB {
+    background-color: var(--primary-base);
+    color: var(--text-brightest);
+    transition: background-color 0.2s ease;
+}
+
+.button-1YfofB:hover {
+    background-color: var(--interactive-hover);
+}
+
+.button-1YfofB:active {
+    background-color: var(--interactive-active);
+}
+
+/* Member List */
+.members-1998pB {
+    background-color: var(--bg-dark);
+}
+
+.member-3-YXUe {
+    transition: background-color 0.2s ease;
+}
+
+.member-3-YXUe:hover {
+    background-color: var(--bg-light);
+}
+
+/* Server Header */
+.header-2V-4Sw {
+    background-color: var(--bg-darker);
+    border-bottom: 1px solid var(--primary-dark);
+}
+
+/* Channel Header */
+.title-3qD0b- {
+    background-color: var(--bg-darkest);
+    border-bottom: 1px solid var(--primary-dark);
+}
+
+/* Mentions and Links */
+.mention {
+    color: var(--primary-light);
+    background-color: rgba(204, 0, 0, 0.1);
+}
+
+.mention:hover {
+    background-color: rgba(204, 0, 0, 0.2);
+}
+
+/* Status Indicators */
+.status-1AY8sU {
+    &.online-2S838R { background-color: var(--online); }
+    &.idle-3DEnRT { background-color: var(--idle); }
+    &.dnd-1_xrcq { background-color: var(--dnd); }
+    &.offline-3qoTek { background-color: var(--offline); }
+}
+
+/* Animations */
+.container-1D34oG,
+.button-1YfofB,
+.member-3-YXUe {
+    transition: all 0.2s ease;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--bg-darker);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--primary-dark);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--primary-base);
+}
+
+/* Selection Color */
+::selection {
+    background-color: var(--primary-base);
+    color: var(--text-brightest);
+}
